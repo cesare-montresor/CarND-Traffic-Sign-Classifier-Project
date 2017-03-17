@@ -1,4 +1,6 @@
-data
+dataset/*
+checkpoints/*
+MNIST_data/*
 .ipynb_checkpoints
 *.h5
 models

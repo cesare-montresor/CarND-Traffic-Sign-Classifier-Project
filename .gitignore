@@ -1,5 +1,6 @@
 dataset/*
 checkpoints/*
+checkpoints*.zip
 MNIST_data/*
 .ipynb_checkpoints
 *.h5

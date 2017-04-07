@@ -13,14 +13,11 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[new_table1]: ./writeup_images/new_table1.png
+[new_table2]: ./writeup_images/new_table2.png
+[explor]: ./writeup_images/explor.png 
+[plot]: ./writeup_images/plot.png 
+
 
 ### Writeup / README
 
@@ -50,7 +47,8 @@ The code for this step is contained in the third code cell of the IPython notebo
 
 This step provide a simple way to have a look into the training set, the cell can be run multiple times to review new random samples.
 
-[img plot]
+![plot][plot]
+![Exploration][explor]
 
 ### Design and Test a Model Architecture
 
@@ -59,8 +57,6 @@ This step provide a simple way to have a look into the training set, the cell ca
 - In the attempt to "normalize" the lighting condition I've been adding a histagram normalization on the Y (YCrCb) channel
 - I switch changed the color space to YCrCb as it provides a grayscale equivalent as Y channel, without the need of "dumping" the color information.
 - Then images are numerically normalized per image, to speedup the optimizer.
-
-![alt text][image2]
 
 #### 2. Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, identify where in your code, and provide example images of the additional data)
 

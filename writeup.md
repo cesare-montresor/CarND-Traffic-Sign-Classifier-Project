@@ -22,43 +22,6 @@ The goals / steps of this project are the following:
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
-## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
-
-The submission includes five new German Traffic signs found on the web, and the images are visualized. Discussion is made as to particular qualities of the images or traffic signs in the images that are of interest, such as whether they would be difficult for the model to classify.
-
-Performance on New Images
-	
-
-The submission documents the performance of the model when tested on the captured images. The performance on the new images is compared to the accuracy results of the test set.
-
-Model Certainty - Softmax Probabilities
-	
-
-The top five softmax probabilities of the predictions on the captured images are outputted. The submission discusses how certain or uncertain the model is of its predictions.
-Suggestions to Make Your Project Stand Out!
-
-Here are a few ideas for going beyond the requirements outlined in the rubric.
-
-AUGMENT THE TRAINING DATA
-Augmenting the training set might help improve model performance. Common data augmentation techniques include rotation, translation, zoom, flips, and/or color perturbation. These techniques can be used individually or combined.
-
-ANALYZE NEW IMAGE PERFORMANCE IN MORE DETAIL
-Calculating the accuracy on these five German traffic sign images found on the web might not give a comprehensive overview of how well the model is performing. Consider ways to do a more detailed analysis of model performance by looking at predictions in more detail. For example, calculate the precision and recall for each traffic sign type from the test set and then compare performance on these five new images..
-
-If one of the new images is a stop sign but was predicted to be a bumpy road sign, then we might expect a low recall for stop signs. In other words, the model has trouble predicting on stop signs. If one of the new images is a 100 km/h sign but was predicted to be a stop sign, we might expect precision to be low for stop signs. In other words, if the model says something is a stop sign, we're not very sure that it really is a stop sign.
-
-Looking at performance of individual sign types can help guide how to better augment the data set or how to fine tune the model.
-
-CREATE VISUALIZATIONS OF THE SOFTMAX PROBABILITIES
-For each of the five new images, create a graphic visualization of the soft-max probabilities. Bar charts might work well.
-
-VISUALIZE LAYERS OF THE NEURAL NETWORK
-See Step 4 of the Iptyon notebook for details about how to do this.
-
-
-
----
 ### Writeup / README
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.

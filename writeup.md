@@ -236,14 +236,15 @@ Right now, giving the great number of run I've tried and giving the most of the 
 
 ####1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-![Desc](writeup_new_imgs_1.png)
+![Desc](writeup_imagegs_1.png)
 ![Desc](writeup_new_imgs_2.png)
 
 For the signs 0, 1, 2, 4, 8 I expected a good classification as the image is clean and they belong to well represented classes.
 
 Comes a bit of a surprise the 3rd example as the the traffic sign belongs to a average represented class and the lighting conditions are not optimal, it might be hard to notice, but in the top left corner for the traffic sign have also been painted over. By best guess at this point is that exactly due to the poor lighting conditions, a greater evidence have been to the overall pattern rather then details  making it easier to be identified, as in contrast with sign in the 7th example.
 
-As for the last example, the 8th it fail to classify it but I'm puzzled as the image appear to be clean, perhaps might be a bit noisy due to what looks like repeated jpeg compression, the class the class might be not particularly well represented (2.0%)
+As for the last example, it fail to classify it, but I'm puzzled as the image appear to be clean, perhaps might be a bit noisy due to what looks like a repeated jpeg-compression, the class also might not be particularly well represented (2.0%)
+
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
